@@ -1,9 +1,4 @@
-
-const Hello = () => {
-  return <h1>Hello World!</h1>
-
-}
-
+import Hello from "./components/Hello";
 
 
 
@@ -11,6 +6,7 @@ const Hello = () => {
 const App = () => {
   return (
     <div>
+    <h1>Greetings</h1>
       <Hello />
     </div>
   )
